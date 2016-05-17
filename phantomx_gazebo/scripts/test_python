@@ -1,0 +1,12 @@
+import rospy
+from sensor_msgs.msg import LaserScan
+def callback(data):
+    rospy.loginfo("recibiendo msg del topic")
+    
+def listener():
+    rospy.init_node('listener', anonymous=True)
+    rospy.Subscriber("/phantomx/laser/scan", LaserScan, callback)
+    rospy.spin()
+
+if __name__ == '__main__':
+    listener()
