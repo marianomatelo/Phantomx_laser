@@ -6,6 +6,9 @@ Launch this in console:
 roslaunch phantomx_gazebo phantomx_gazebo.launch
 rosrun phantomx_gazebo walker_demo.py
 
+![alt text](https://github.com/marianomatelo/Phantomx_laser/blob/master/Picture1.png)
+![alt text](https://github.com/marianomatelo/Phantomx_laser/blob/master/Picture2.png)
+![alt text](https://github.com/marianomatelo/Phantomx_laser/blob/master/PhantomX%20Nodos.png)
 
 
 
