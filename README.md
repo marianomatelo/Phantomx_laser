@@ -1,6 +1,6 @@
 # Phantomx_laser
-Phantomx model conected with ros to gazebo, uses a laser to scan for objects and moves acording to its distance to them.
-Programmed to avoid collisions, turn around, go back according to data readings from its laser.
+Phantomx model conected with ros to gazebo, uses a LIDAR to scan for objects and moves acording to its distance to them.
+Programmed to avoid collisions, turn around, go back according to sensor readings.
 
 Launch this in console:
 roslaunch phantomx_gazebo phantomx_gazebo.launch
